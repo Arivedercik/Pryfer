@@ -7,4 +7,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="dateForCoding.csv" />
+    <None Remove="dateForDecoding.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="dateForCoding.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dateForDecoding.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
